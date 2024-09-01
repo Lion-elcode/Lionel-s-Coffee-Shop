@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lionel">
+    <meta name="description" content="My Little coffee shop CSS project for beginers">
+    <title>Lionel's coffee shop</title>
+    <link rel="shortcut icon" href="../assets/web-developer-logo-template_674356-207.jpg" type="image/x-icon">
+    <style>
+        html{
+    font-size: 22px;
+}
+
+body{
+    background-image: url("../images/espresso\ \(1\).jpg");
+    font-family: serif;
+}
+  h1, h2 ,h3{
+    font-family: sans-serif;
+  }
+  .navigation{
+    background-color: gainsboro;
+    display: inline-flex;
+    gap: 20px;
+    
+}
+.nav-div{
+    background-color: gainsboro;
+    padding: 10px 50px;
+    width: 900px;
+    text-align: center;
+    margin: 5px auto;
+    
+}
+li{
+    list-style: none;
+}
+.lio{
+    display: flex;
+    background-color: gainsboro;
+    width: 1000px;
+    margin: 50px auto ;
+    text-align: justify;
+    padding: 50px;
+}
+.figure{
+    display: flex;
+}
+
+footer{
+  color: gainsboro;
+  font-weight: 600;
+}
+fieldset{
+  width: 600px;
+}
+button{
+  font-size: 19px;
+  margin: 5px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 7px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: gray;
+}
+a:visited{
+    color: blueviolet;
+}
+a:active{
+    color: burlywood;
+}
+@media(max-width:600px){
+  html{
+    font-size: 16px;
+  }
+  .navigation{
+    background-color: gainsboro;
+    display: inline-flex;
+    gap: 20px;
+    width: 500px;
+    
+}
+.nav-div{
+    background-color: gainsboro;
+    padding: 10px 50px;
+    width: 500px;
+    text-align: left;
+    margin: 5px auto;
+    
+}
+.lio{
+    display: flex;
+    gap: 50px;
+    background-color: gainsboro;
+    width: 600px;
+    margin: 30px auto ;
+    text-align: justify;
+    padding: 20px;
+}
+.figure{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+#img{
+  width: 250px;
+}
+fieldset{
+  width: 500px;
+}
+button{
+  font-size: 15px;
+  margin: 5px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 7px;
+}
+}
+@media(601px <= width <= 900px){
+  html{
+    font-size: 18px;
+  }
+  .navigation{
+    background-color: gainsboro;
+    display: inline-flex;
+    gap: 20px;
+    width: 600px;
+    
+}
+.nav-div{
+    background-color: gainsboro;
+    padding: 10px 50px;
+    width: 600px;
+    text-align: left;
+    margin: 5px auto;
+    
+}
+.lio{
+    display: flex;
+    gap: 50px;
+    background-color: gainsboro;
+    width: 750px;
+    margin: 30px auto ;
+    text-align: justify;
+    padding: 20px;
+}
+.figure{
+    display: flex;
+    
+}
+#img{
+  width: 300px;
+}
+fieldset{
+  width: 500px;
+}
+button{
+  font-size: 15px;
+  margin: 5px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 7px;
+}
+}
+@media(901px<=width<=1200px){
+  html{
+    font-size: 20px;
+  }
+ .nav-div{
+  width: 800px;
+ }
+.lio{
+    display: flex;
+    gap: 50px;
+    background-color: gainsboro;
+    width:850px;
+    margin: 30px auto ;
+    text-align: justify;
+    padding: 20px;
+}
+.figure{
+    display: flex;
+    
+}
+#img{
+  width: 300px;
+}
+fieldset{
+  width: 500px;
+}
+button{
+  font-size: 15px;
+  margin: 5px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 7px;
+}
+}
+    </style>
+</head>
+<body>
+  <header>
+    <img src="../assets/DevCom_Logo_BlueTranspare2.png" alt="DevCom_Logo image" width="300px">
+    <br>
+    <hr>
+    <div class="nav-div">
+    <h1 >Our Contacts &amp; Our Location</h1>
+    
+    <div class="navigation">
+        <a href="../index.html"><li> Home Page</li></a>
+        <a href="../index.html#about"><li>About <abbr title="Lionel's Coffee Shop"> LCS</abbr></li></a>
+        <a href="../index.html#menu"><li>Our Menu</li></a>
+        <a href="./hours.html"><li> Working Hours</li></a>
+     </div>
+    </div>
+  </header>
+  <div class="lio">
+    <main>
+      <section>
+        <div class="figure">
+          <figure>
+            <img id="img" src="../images/chicken wings & chips  (3).jpg" alt="roasted chicken legs with french fries and salad" width="450px" title="roasted chicken legs with french fries and salad">
+            <figcaption><em> Roasted Chicken Legs With Chips and Salad</em></figcaption>
+          </figure>
+          <figure>
+            <img id="img" src="../images/espresso (2).jpg " alt="cafe_latte" width="450px" title="espresso_coffee">
+            <figcaption>
+              <em>One of Our Best Espresso_coffee</em>
+            </figcaption>
+          </figure>
+        </div>
+        <hr>
+        <h2>Our Contact Form</h2>
+        <form>
+          <fieldset>
+            <legend>send us a message</legend>
+            <p>
+            <label for="name">First Name:</label>
+            <input type="text" name="name" id="name" required placeholder="your First Name">
+            </p>
+            <p>
+              <label for="name">Second Name:</label>
+            <input type="text" name="name" id="name" required placeholder="your Second Name">
+            </p>
+            <p>
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required placeholder="write your email here" >
+            </p>
+            <p>
+              <label for="tel">Phone Number:</label>
+              <input type="tel" name="Number" id="tel" placeholder="07xxxxxxxx" >
+            </p>
+            <p>
+              <label for="text">Your Message:</label>
+              <br>
+              <textarea name="text" id="text" required placeholder="write your message here" rows="10px" cols="30px"></textarea>
+            </p>
+          </fieldset>
+          <button type="submit">send</button>
+          <button type="reset">reset</button>
+        </form>
+        <br>
+        <hr>
+        <h2>Our Location</h2>
+        <address>
+          Kigali,Rwanda
+          <br>
+          Kicukiro,Masaka
+          <br>
+          Cyimo,Bwiza
+          <br>
+          P.O box 0217
+        </address>
+        <p>
+          phone: <a href="tel:+250781343429">+250781343429</a>
+        </p>
+        <p>
+          <a href="#">Back to Top</a>
+        </p>
+      </section>
+    </main>
+
+  </div>
+    <footer>
+      copyright &copy; lionel coder
+    </footer>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lionel">
+    <meta name="description" content="My Little coffee shop CSS project for beginers">
+    <title>Lionel's coffee shop</title>
+    <link rel="shortcut icon" href="../assets/web-developer-logo-template_674356-207.jpg" type="image/x-icon">
+    <style>
+        html{
+    font-size: 22px;
+}
+
+body{
+    background-image: url("../images/cappuccinos\ \(2\).jpg");
+    font-family: serif;
+}
+  h1, h2 ,h3{
+    font-family: sans-serif;
+  }
+  .navigation{
+    background-color: gainsboro;
+    display: inline-flex;
+    gap: 20px;
+    
+}
+.nav-div{
+    background-color: gainsboro;
+    padding: 10px 50px;
+    width: 900px;
+    text-align: center;
+    margin: 5px auto;
+    
+}
+li{
+    list-style: none;
+}
+.lio{
+    display: flex;
+    background-color: gainsboro;
+    width: 1000px;
+    margin: 50px auto ;
+    text-align: justify;
+    padding: 50px;
+}
+.figure{
+    display: flex;
+}
+footer{
+  color: gainsboro;
+  font-weight: 600;
+}
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: gray;
+}
+a:visited{
+    color: blueviolet;
+}
+a:active{
+    color: burlywood;
+}
+@media(max-width:600px){
+  html{
+    font-size: 16px;
+  }
+  .img{
+    width: 210px;
+  }
+  .navigation{
+    background-color: gainsboro;
+    display: inline-flex;
+    gap: 20px;
+    
+}
+.nav-div{
+    background-color: gainsboro;
+    padding: 10px 50px;
+    width: 450px;
+    text-align: center;
+    margin: 5px auto;
+    
+}
+.lio{
+    display: flex;
+    background-color: gainsboro;
+    width: 550px;
+    margin: 10px auto ;
+    text-align: justify;
+    padding: 10px;
+}
+}
+@media(601px <= width <= 900px){
+  html{
+    font-size: 18px;
+  }
+  .img{
+    width: 300px;
+  }
+  .nav-div{
+    width: 600px;
+  }
+  .lio{
+    width: 700px;
+  }
+}
+@media(901px <= width <= 1200px){
+  html{
+    font-size: 20px;
+  }
+  .nav-div{
+    width: 900px;
+  }
+  .lio{
+    width: 950px;
+  }
+}
+   </style>
+</head>
+<body>
+    <header>
+        <img class="img" src="../assets/DevCom_Logo_BlueTranspare2.png" alt="DevCom_Logo image" width="300px">
+        <hr>
+       <div class="nav-div">
+        <h1>Welcome To Our Store Hours</h1>
+        
+        <div class="navigation">
+            <li><a href="../index.html">Home Page</a></li>
+            <a href="../index.html#about"><li>About </li></a>
+            <a href="../index.html#menu"><li>Our Menu</li></a>
+            <a href="./contact.html"><li>Contact And Location</li></a>
+        </div>
+       </div>
+    </header>
+    <div class="lio">
+        <main>
+            <section>
+              <div class="figure">
+                <figure>
+                    <img class="img" src="../images/lasagne (1).webp" alt="lasagne image" width="400px" title="Our Delicious Lasagne">
+                    <figcaption> <em>One of our delicious traditional lasagne</em></figcaption>
+                  </figure>
+                  <figure>  
+                    <img class="img" src="../images/black coffee (1).jpeg" alt="black coffee image" width="400px" title="Black Coffee">
+                    <figcaption><em>Don't miss our best black coffee in the whole Africa</em></figcaption>
+                </figure>
+              </div>
+              <hr>
+              <h2>We are always open 7 days a week!</h2>
+
+              <dl>
+                <dt>Sunday-Thursday</dt>
+                <dd>9am-10pm</dd>
+              </dl>
+              <dl>
+                <dt>Friday-Saturday</dt>
+                <dd>9am-12pm</dd>
+              </dl>
+              <p>I guess , that is a favorable time for every one who want to have a meal, we are always available at any time . </p>
+            </section>
+
+         </main>
+    </div>
+    <footer> 
+      <p>copyright &copy; lionel coder</p>
+    </footer>
+</body>
+</htm
